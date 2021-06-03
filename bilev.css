@@ -1,0 +1,374 @@
+.big-circle {
+  position: absolute;
+  top: -11px;
+  left: -3px;
+  width: 855px;
+  height: 855px;
+  border-radius: 50%;
+  background: #ddd;
+  z-index: 2;
+}
+
+/*Global*/
+.middle-line {
+  background-color: #ddd !important;
+}
+.middle-line-vertical {
+  background-color: #ddd !important;
+  top: 91.1% !important;
+}
+.middle-line-vertical-top {
+  background-color: #ddd !important;
+  top: 4.2% !important;
+}
+.middle-circle {
+  background-color: #ddd !important;
+}
+
+.cn-button.bootstrap {
+  background: #333;
+}
+
+.billev-pharma--page-featured-image__square-left {
+  position: absolute;
+  bottom: -40px;
+  height: 230px;
+  width: 230px;
+  background-color: #efefef;
+}
+.billev-pharma--page-featured-image__square-right {
+  position: absolute;
+  right: 38px;
+  bottom: -10px;
+  height: 230px;
+  width: 230px;
+  background-color: #4c1f14;
+}
+@media only screen and (max-width: 1400px) {
+  .billev-pharma--page-featured-image__square-right {
+    right: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .keep-icon-box-left .elementor-icon-box-icon {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+
+  .keep-icon-box-left .elementor-icon-box-icon {
+    flex: 0 0 auto;
+    margin-left: 0px !important;
+    margin-right: 14px !important;
+  }
+}
+
+/*Sticky header*/
+@media (min-width: 1125px) {
+  #site_header {
+    display: none;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .billev-pharma-nav-menu__main-menu
+    .elementor-nav-menu--layout-horizontal
+    .elementor-nav-menu
+    > li:not(:last-child) {
+    margin-right: 15px !important;
+  }
+
+  .billev--site-logo .elementor-image img {
+    max-width: 150px !important;
+    margin-right: 20px !important;
+  }
+  .billev-pharma-nav-menu__main-menu .elementor-nav-menu {
+    margin-left: -30px !important;
+  }
+  .billev--header-search-icon .elementor-search-form__toggle {
+    display: none !important;
+  }
+}
+
+/*Menu highlight*/
+div.billev-pharma-nav-menu__main-menu
+  nav.elementor-nav-menu--main
+  > ul
+  li.current-menu-ancestor.current_page_ancestor
+  > a {
+  color: #fd0000 !important;
+}
+
+/****Index page****/
+
+/*Slider*/
+@media only screen and (min-width: 1280px) {
+  .sliderTitleTop {
+    margin-left: -360px;
+  }
+
+  .slider__description-first {
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 0;
+    font-size: 2.4rem;
+  }
+
+  .slider__description-sec {
+    display: block;
+    margin: 0 0 0 70px;
+    font-size: 2rem;
+  }
+
+  .slider__description-thr {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: #fa4238;
+    font-weight: 600;
+    text-align: end;
+  }
+
+  .slider__description-forth {
+    display: block;
+    margin-top: 10px;
+    color: #926f68;
+    font-weight: 600;
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .slider__description-fifth {
+    display: block;
+    color: #926f68;
+    font-weight: 600;
+    font-size: 3rem;
+  }
+}
+
+/*Team of experts*/
+.ozadje {
+  position: relative;
+  height: 100%;
+}
+@media only screen and (min-width: 1280px) {
+  .ozadje:before {
+    content: "";
+    position: absolute;
+    background-color: #efefef;
+    height: 100%;
+    width: 600px;
+    left: -220px;
+    z-index: -1;
+  }
+}
+
+/*Our experts*/
+
+.billev-pharma--our-experts__image-box .elementor-image-box-wrapper img {
+  border: 3px solid #4c1f14;
+}
+
+.billev-pharma--our-experts__image-box .elementor-image-box-title {
+  margin-top: 10px;
+}
+
+/****Contact us****/
+
+.billev-pahrva--contact-cta__border:before {
+  position: absolute;
+  z-index: 2;
+  width: 10%;
+  height: 100%;
+  border-top: 5px solid #6e3527;
+  border-bottom: 5px solid #6e3527;
+  content: "";
+}
+
+.billev-pahrva--contact-cta__border:after {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  width: 10%;
+  height: 100%;
+  border-bottom: 5px solid #6e3527;
+  border-top: 5px solid #6e3527;
+  content: "";
+}
+
+/*Kontakt form*/
+
+::-webkit-input-placeholder {
+  font-size: 1.4rem;
+}
+:-moz-placeholder {
+  font-size: 1.4rem;
+}
+::-moz-placeholder {
+  font-size: 1.4rem;
+}
+:-ms-input-placeholder {
+  font-size: 1.4rem;
+}
+
+.wpcf7-form input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+select,
+textarea {
+  width: 100% !important;
+}
+
+form.wpcf7-form .wpcf7-text {
+  width: 100% !important;
+  padding: 20px 14px;
+}
+
+form.wpcf7-form .wpcf7-select {
+  padding: 10px 14px;
+}
+
+form.wpcf7-form input[type="checkbox"] {
+  border-color: #000;
+}
+
+form.wpcf7-form input[type="checkbox"]:checked,
+input[type="checkbox"]:checked::after {
+  border-color: #6e3527;
+}
+
+.wpcf7-form input,
+.wpcf7-form textarea,
+.wpcf7-form select {
+  font-size: 16px;
+  color: #aeb2b4;
+}
+
+form.wpcf7-form .wpcf7-text,
+form.wpcf7-form textarea {
+  border: 1px solid #d2d2d2;
+}
+
+.wpcf7-form textarea {
+  height: 280px !important;
+}
+
+form.wpcf7-form input[type="submit"] {
+  width: 60% !important;
+  padding: 10px !important;
+  border-color: #6e3527;
+  background-color: #6e3527 !important;
+  font-size: 24px !important;
+  font-weight: 300 !important;
+  line-height: 30px !important;
+  color: #fff !important;
+  transition: all 0.6s ease !important;
+}
+
+form.wpcf7-form input[type="submit"]:hover {
+  background-color: #333 !important;
+}
+
+.cf7-accept a,
+.cf7-accept p {
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 2em;
+}
+
+.cf7-gdpr p {
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 2em;
+}
+
+.one-half {
+  position: relative;
+  margin-right: 5%;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.one-half {
+  width: 47%;
+}
+.last {
+  margin-top: -20px;
+  margin-right: 0;
+  margin-right: 0 !important;
+  clear: right;
+}
+@media only screen and (max-width: 767px) {
+  .one-half {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+/*Mobile + Tablet*/
+@media only screen and (max-width: 1179px) {
+  form.wpcf7-form input[type="submit"] {
+    font-size: 20px !important;
+    line-height: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  form.wpcf7-form input[type="submit"] {
+    width: 80% !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+  }
+}
+
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output {
+  border-color: #fff;
+}
+
+.HoverLinkKontakt {
+  color: #6e3527 !important;
+  font-weight: 500;
+}
+
+.HoverLink {
+  color: #6e3527 !important;
+}
+
+.link-color-alternative a {
+  color: #fff !important;
+}
+
+.link-color-alternative a:hover {
+  color: #000 !important;
+}
+
+.link-color-alternative-black a {
+  color: #333 !important;
+}
+
+.link-color-alternative-black a:hover {
+  color: #1e7c28 !important;
+}
+
+/*Footer*/
+
+.billev-pharma--hover-link-alternative a {
+  color: #333;
+}
+
+.billev-pharma--hover-link-alternative a:hover {
+  color: #fa4238;
+}
